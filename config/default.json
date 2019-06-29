@@ -1,0 +1,5 @@
+{
+    "mongoURI":"mongodb+srv://waleed:lPe6dcFh1fcLWB5J@contact-mern-wynfa.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret":"secret"
+}
+
