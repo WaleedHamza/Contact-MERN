@@ -1,11 +1,14 @@
 {
-  "name": "Contact-MERN",
+  "name": "Contact_Manager_MERN_Application",
   "version": "1.0.0",
-  "description": "Contact app",
+  "description": "Contact manager web-app",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev":"concurrently \"npm run server\"  \"npm run client\" "
   },
   "repository": {
     "type": "git",
