@@ -4,10 +4,13 @@ import Navbar from './components/layouts/Navbar';
 import Home from './components/layouts/Home';
 import About from './components/layouts/About';
 
+import ContactState from './context/contact/ContactState'
+
 import './App.css';
 
 const App = () => {
     return (
+        <ContactState>
         <Router>
         <Fragment>
             <Navbar/>
@@ -19,6 +22,7 @@ const App = () => {
             </div>
         </Fragment>
         </Router>
+        </ContactState>
     );
 }
 
